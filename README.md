@@ -6,6 +6,10 @@
 <li>docker-compose build</li>
 </ol>
 
+```powershell
+docker compose up --start app
+docker compose down -- end app
+```
 
 ```powershell
 docker-compose run --rm app sh -c "flake8"
