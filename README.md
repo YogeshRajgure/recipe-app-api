@@ -1,4 +1,5 @@
-# recipe-app-api
+# Django Rest Framework
+### recipe-app-api
 
 <h3>Commands used</h3>
 <ol>
