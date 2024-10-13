@@ -6,6 +6,10 @@ exclude =
     manage.py,
     settings.py
 
+[ignore]
+   E501 = # ignore this error
+
+
 per-file-ignores =
-    # line too long
     path/to/file.py: E501,
+

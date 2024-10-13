@@ -32,7 +32,6 @@ class RecipeViewSet(viewsets.ModelViewSet):
         serializer.save(user=self.request.user)
 
 
-
 class BaseRecipeAttrViewSet(mixins.DestroyModelMixin,
                             mixins.UpdateModelMixin, mixins.ListModelMixin,
                             viewsets.GenericViewSet):
