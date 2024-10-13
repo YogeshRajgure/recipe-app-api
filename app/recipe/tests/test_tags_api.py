@@ -10,12 +10,11 @@ from rest_framework.test import APIClient
 
 from core.models import Tag
 
-from core.models import Tag
-
 from recipe.serializers import TagSerialiser
 
 
 TAGS_URL = reverse('recipe:tag-list')
+
 
 def detail_url(tag_id):
     """Create and return a tag detail url"""
